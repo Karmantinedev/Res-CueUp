@@ -97,7 +97,7 @@ pip install -r requirements.txt
         <img src="https://github.com/Karmantinedev.png" width="100px;" alt="João Souza"/>
         <br /><sub><b>João Souza</b></sub>
       </a>
-      <br /><span>SM • ML & Agent Developer</span>
+      <br /><span>PO • Backend & Frontend Developer</span>
     </td>
 </table>
 
