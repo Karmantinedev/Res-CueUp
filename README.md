@@ -1,4 +1,4 @@
-<!-- ESCUDOS DO PROJETO mudar nome do rep se for usar em outro lugar-->
+<!-- TAGS DO PROJETO mudar nome do rep se for usar em outro lugar-->
 <p align="center">
   <a href="https://github.com/Karmantinedev/Res-CueUp/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/Karmantinedev/Res-CueUp.svg?style=for-the-badge" alt="Contribuidores" />
@@ -43,6 +43,15 @@
 <h3 align="center">Automatic Backup software to keep documents secure in an independent storage unit</h3>
 
 <h1 align="left"> About </h1>
+
 Res-CueUp is a software designed to keep your most important documents and files safe on the case of an unpredicted PC shutdown.
 
-the objective of this project is to create a fully customizable experience where the user will be easily capable of 
+the objective of this project is to create a fully customizable experience where the user will be easily capable of managing imput folders (up to 10) and the target location for the output folder, where the folders will all be consolidated and kept updated in time cycles, those also chosen by the user.
+
+With this, my hope is that i may be able to present an useful tool for many people that suffer with projects being corrupted by an unpredicted computer shutdown.
+
+<h1 align="left"> How it works </h1>
+
+1. 
+2. 
+3. 
