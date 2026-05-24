@@ -37,7 +37,7 @@
 </h1>
 
 <p align="center"> 
-  🌎 Languages: <a href="./readme/README.en.md">English</a> | <a href="./README.md">Português</a>
+  🌎 Languages: <a href="./readme/README.pt.md">Português</a> | <a href="./README.md">English</a>
 </p>
 
 <h3 align="center">Automatic Backup software to keep documents secure in an independent storage unit</h3>
@@ -116,3 +116,9 @@ See [CONTRIBUTING.md](./.github/CONTRIBUTING.md) to see how you can start.
 This project follows a code of conduct to guarantee a welcoming environment.
 
 when available, you may access it here: [CODE_OF_CONDUCT.md](./.github/CODE_OF_CONDUCT.md).
+
+---
+
+> Demo [Res-CueUP](linkgitpages.com) &nbsp;&middot;&nbsp;
+> GitHub [Res-CueUP](https://github.com/Karmantinedev/Res-CueUp) &nbsp;&middot;&nbsp;
+> email [projectemail.com]()
