@@ -46,12 +46,16 @@
 
 Res-CueUp is a software designed to keep your most important documents and files safe on the case of an unpredicted PC shutdown.
 
-the objective of this project is to create a fully customizable experience where the user will be easily capable of managing imput folders (up to 10) and the target location for the output folder, where the folders will all be consolidated and kept updated in time cycles, those also chosen by the user.
+the objective of this project is to create a fully customizable experience where the user will be easily capable of managing input folders (up to 10) and the target location for the output folder, where the folders will all be consolidated and kept updated in time cycles, those also chosen by the user.
 
 With this, my hope is that i may be able to present an useful tool for many people that suffer with projects being corrupted by an unpredicted computer shutdown.
 
 <h1 align="left"> How it works </h1>
 
-1. 
-2. 
-3. 
+1. The user will be identified to keep all information catalogued properly under a single recognizable name.
+
+2. The user will choose from up to 10 folders of their choice to start setting up a "recovery cycle tray".
+
+3. For a "recovery cycle tray" to be properly set, you will be asked to choose a time gap so that the process of recovery can be attempted continuously, it may be minutes, it may be hours, by default it will be from 30 to 30 minutes, but it is totally up to the user.
+
+4. After setting up a cycle, the user will be asked to set a path to a specific removable unit connected to their pc, the software will keep your prefered unit name saved under your user id so that whenever the unit is connected at a later time, it will automatically be checked to see if there are any changes to update the output folder, and then the cycle will begin again after this process.
