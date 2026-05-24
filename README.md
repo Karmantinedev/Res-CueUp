@@ -42,7 +42,7 @@
 
 <h3 align="center">Automatic Backup software to keep documents secure in an independent storage unit</h3>
 
-<h1 align="left"> About </h1>
+<h2 align="left"> About </h2>
 
 Res-CueUp is a software designed to keep your most important documents and files safe on the case of an unpredicted PC shutdown.
 
@@ -50,7 +50,7 @@ the objective of this project is to create a fully customizable experience where
 
 With this, my hope is that i may be able to present an useful tool for many people that suffer with projects being corrupted by an unpredicted computer shutdown.
 
-<h1 align="left"> How it works </h1>
+<h2 align="left"> How it works </h2>
 
 1. The user will be identified to keep all information catalogued properly under a single recognizable name.
 
@@ -59,3 +59,60 @@ With this, my hope is that i may be able to present an useful tool for many peop
 3. For a "recovery cycle tray" to be properly set, you will be asked to choose a time gap so that the process of recovery can be attempted continuously, it may be minutes, it may be hours, by default it will be from 30 to 30 minutes, but it is totally up to the user.
 
 4. After setting up a cycle, the user will be asked to set a path to a specific removable unit connected to their pc, the software will keep your prefered unit name saved under your user id so that whenever the unit is connected at a later time, it will automatically be checked to see if there are any changes to update the output folder, and then the cycle will begin again after this process.
+
+<h2 align="left"> 🔗 Links </h2>
+
+- [demo program](link)
+- [Figma - Project Hub](link)
+- [Repository](link)
+
+<h2 align="left"> 📚 Technical Documentation </h2>
+
+For developers and contributors interested, here are detailed guides on the iner workings of the project:
+
+- 🐍 **[Script manuals (Backend)](scripts/README.md):** How to run the scripts inside the program.
+- 💾 **[Data Structure](data/README.md):** How the structure parses the user's information over JSON.
+- 🔒 **[Security policy](SECURITY.md):** How to report vulnerabilities.
+
+<h2 align="left"> 🛠️ Quick installation for Developers </h2>
+
+```bash
+# 1. Clone repository
+git clone https://github.com/Karmantinedev/Res-CueUp.git
+
+# 2. Backend configuration
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+# 3. Frontend configuration
+(wip)
+```
+<h2 align="left"> 🙋‍♂️ Active developers </h2>
+
+<table>
+<tr>
+    <td align="center">
+      <a href="https://github.com/Karmantinedev">
+        <img src="https://github.com/Karmantinedev.png" width="100px;" alt="João Souza"/>
+        <br /><sub><b>João Souza</b></sub>
+      </a>
+      <br /><span>SM • ML & Agent Developer</span>
+    </td>
+</table>
+
+<h2 align="left"> 🧾License </h2>
+
+[MIT](./LICENSE)
+
+<h2 align="left">🤝Contributions </h2>
+
+Contributions are welcome!
+
+See [CONTRIBUTING.md](./.github/CONTRIBUTING.md) to see how you can start.
+
+<h2 align="left">📜Code of conduct </h2>
+
+This project follows a code of conduct to guarantee a welcoming environment.
+
+when available, you may access it here: [CODE_OF_CONDUCT.md](./.github/CODE_OF_CONDUCT.md).
