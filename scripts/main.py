@@ -1,7 +1,7 @@
 import Folder_List_Handler
 import Usercase_config
-
-
+from datetime import datetime
+import time
 
 def main_menu():
     print("1.Select target folders for backup.\n")
@@ -11,12 +11,62 @@ def main_menu():
     print("5.Quit.\n")
 
 def introduction():
+    print(".step 1.")
+    notintroduced()
+
+def notintroduced():
+    print(".step 2.") #debug
     print("hello!! welcome to the application!")
+    time.sleep(1.5)
+    greetings_user(captured_name)
+    #function that will define the Json for the user
+    print(".step 4.")
+    print("json archive goes here")
+    print(f"alright {captured_name}, how may i take your order?")
+
+def usercatcher():
+    print(".step 3.")
     username = input("What is your name, dear?\n")
-    #function that will define the Json for the user, ask once then remember
-    print(f"alright {username}, how may i take your order?")
+    return username
+
+def greetings_user(name):
+    print(f"{name}")
+
+captured_name = usercatcher()
+
+#flavortext time
+
+def greetings():
+    now = datetime.now()
+    current_hour = now.hour
+    if (current_hour >= 0) and (current_hour < 12):
+        greetings_intro = "morning"
+        print(f"{greetings_intro}")
+        return greetings_intro
+    elif (current_hour >= 12) and (current_hour < 18):
+        greetings_intro = "afternoon"
+        print(f"{greetings_intro}")
+        return greetings_intro
+    elif (current_hour >= 18) and (current_hour <=23):
+        greetings_intro = "night"
+        print(f"{greetings_intro}")
+        return greetings_intro
+
+#username for flavortext
+
+
+def wasintroduced():
+    print(f"Good {greetings()}, {captured_name} welcome to the application!")
+    time.sleep(1.5)
+    print("How may i help you?")
+
+
+
+#start of application
+introduction()
 
 while True:
+    print(".step 5.")
     main_menu()
     try:
         main_choice = int(input("select the option you wish \n"))
